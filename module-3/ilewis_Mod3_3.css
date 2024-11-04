@@ -1,0 +1,53 @@
+ilewis_Mod3_3.css
+
+/* Center the h1 title */
+h1 {
+    text-align: center;
+}
+
+/* Style for side-by-side divs */
+#container > div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Style for the last div */
+#container > div:last-child {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* Style for h3 tags */
+h3 {
+    font-weight: 500;
+}
+
+/* Style for lists */
+ol, ul {
+    font-weight: 300;
+    padding: 10px;
+}
+
+/* Style for ordered list and its title */
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+/* Style for unordered list and its title */
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
