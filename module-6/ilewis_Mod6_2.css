@@ -1,0 +1,125 @@
+ilewis_Mod6_2.css
+
+/* 11/16/24 */
+/* Ian Lewis */
+/* CSD 340 */
+/* Module 6 Assignment */
+
+/* Header Styles */
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+/* H1 Styles */
+header h1 {
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Navbar Styles */
+#navbar {
+    overflow: hidden;
+    background-color: #444;
+    border-bottom: 15px solid #f4a261;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Navbar Link Styles */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Navbar Link Hover Styles */
+#navbar a:hover {
+    background-color: #f4a261;
+    color: #333;
+}
+
+/* Container Styles */
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: 20px auto;
+    padding: 2px 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Card Hover Styles */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title Styles */
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Card Content Styles */
+.card-content {
+    padding: 2px 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Card Content Ordered List Styles */
+.card-content ol li {
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #444;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Footer Paragraph Styles */
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Footer Link Styles */
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+/* Footer Link Hover Styles */
+footer a:hover {
+    text-decoration: underline;
+}
