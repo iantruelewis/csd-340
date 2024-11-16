@@ -5,44 +5,44 @@ ilewis_Mod4_2.css
 /* CSD 340 */
 /* Module 4 Assignment */
 
-/* Apply a sans-serif font to all text on the page */
+/* Applies sans-serif font to all text on page */
 body, body * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Center the h1 text and apply a color using rgba */
+/* Centers h1 text and applies a color using rgba */
 h1 {
     text-align: center;
-    color: rgba(0, 123, 255, 0.8); /* Optional color: blue with some transparency */
+    color: rgba(0, 123, 255, 0.8); /* Optional color */
 }
 
-/* Center the h3 text and apply a color using rgba */
+/* Centers h1 text and applies a color using rgba */
 h3 {
     text-align: center;
-    color: rgba(220, 20, 60, 0.8); /* Optional color: crimson with some transparency */
+    color: rgba(220, 20, 60, 0.8); /* Optional color */
 }
 
-/* Styling the figure to center the image within the div */
+/* Styles figure to center the image within div */
 figure {
     text-align: center;
 }
 
-/* Style the figcaption with italic font and smaller size */
+/* Styles figcaption with italic font and smaller size */
 figcaption {
     font-style: italic;
     font-size: 0.75em;
-    color: rgba(34, 139, 34, 0.8); /* Optional color: forest green with some transparency */
+    color: rgba(34, 139, 34, 0.8); /* Optional color */
 }
 
-/* Apply CSS grid for the image gallery with three columns */
+/* Applies CSS grid for image gallery with three columns */
 #image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 10%;
 }
 
-/* Add outline to each div inside the image gallery */
+/* Adds outline to each div inside image gallery */
 #image-gallery > div {
-    outline: 2px solid rgba(0, 0, 0, 0.5); /* Optional color: black with some transparency */
-    padding: 10px; /* Optional padding inside each div */
+    outline: 2px solid rgba(0, 0, 0, 0.5); /* Optional color */
+    padding: 10px; /* Padding in each div block */
 }
