@@ -1,0 +1,156 @@
+styles.css
+
+/* 11/09/24-11/24/24 */
+/* Ian Lewis */
+/* CSD 340 */
+/* bioSite */
+
+/* ... */
+/* General Body and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Landing Page */
+.landing {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f0e4d7; /* Light neutral background */
+}
+
+.landing h1 {
+    color: #3e4a3d; /* Olive green */
+    font-size: 3em;
+}
+
+.hero-image img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.intro-text {
+    font-size: 1.3em;
+    margin: 20px 0;
+    color: #CC5500; /* Burnt orange */
+    padding: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3e4a3d; /* Olive green */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #CC5500; /* Burnt orange */
+}
+
+/* About Page */
+.about {
+    padding: 40px 0;
+    background-color: #fff;
+    
+}
+
+.about .portrait img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 40px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #3e4a3d;
+    margin: 40px;
+}
+
+/* Hobbies Page */
+.hobbies {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.hobby img {
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hobby p {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #3e4a3d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
