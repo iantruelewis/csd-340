@@ -1,0 +1,32 @@
+site.css
+
+/* Style for main container */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Styles for h1, h2, h3, and h4 headings */
+h1, h2, h3, h4 {
+    background-color: #4A90E2; /* Choose a color for the background */
+    color: #FFFFFF; /* Choose a readable font color */
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+/* Styles for anchor tags */
+a {
+    color: #336699; /* Choose a color that matches the scheme */
+    text-decoration: none;
+}
+
+/* Anchor tag hover state */
+a:hover {
+    color: #2C5C89; /* Slightly darker shade for hover */
+}
+
+/* Anchor tag visited state */
+a:visited {
+    color: #274A6E; /* Slightly darker shade for visited links */
+}
