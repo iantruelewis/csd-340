@@ -1,0 +1,62 @@
+<!-- ilewis_Mod9_3.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ian Lewis">
+    <meta name="description" content="CSD 340 Module 9.3 Assignment: JavaScript - Part 1">
+    <link rel="stylesheet" href="ilewis_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        // JavaScript variables for span replacements
+        const word1 = "imagination";
+        const word2 = "music";
+        const word3 = "journey";
+        const word4 = "family";
+
+        // Functions replace underscores with corresponding words
+        function fillWord1() {
+            document.getElementById('span1').innerText = word1;
+        }
+        function fillWord2() {
+            document.getElementById('span2').innerText = word2;
+        }
+        function fillWord3() {
+            document.getElementById('span3').innerText = word3;
+        }
+        function fillWord4() {
+            document.getElementById('span4').innerText = word4;
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        
+        <p>
+            Life is a canvas of possibilities, painted with strokes of <span id="span1">________</span>. 
+            Every step forward is accompanied by the rhythm of <span id="span2">________</span>, 
+            guiding us on our <span id="span3">________</span> through the highs and lows.
+            In the end, the colors come together, reminding us of the beauty of <span id="span4">________</span>.
+        </p>
+
+        <p>
+            Growing up, I always found joy in discovering the world around me. 
+            My passions have grown over the years, evolving into a profound appreciation for nature, technology, and creativity.
+        </p>
+
+        <p>
+            These interests have fueled my career and personal growth, 
+            helping me connect with the people who inspire me and the ideas that challenge me.
+        </p>
+
+        <!-- Buttons for replacing the underscores -->
+        <button onclick="fillWord1()">imagination</button>
+        <button onclick="fillWord2()">music</button>
+        <button onclick="fillWord3()">journey</button>
+        <button onclick="fillWord4()">family</button>
+    </div>
+</body>
+</html>
