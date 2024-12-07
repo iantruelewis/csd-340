@@ -1,0 +1,57 @@
+<!-- ilewis_Mod10_3.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="ilewis_Mod10_3.css">
+</head>
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <div>
+        <img id="image1" 
+             src="images/image1.jpg" 
+             alt="First Image" 
+             onmouseover="this.src='images/newImage1.jpg'" 
+             onmouseout="this.src='images/image1.jpg'"
+             onclick="clickImage(this)">
+        <p onmouseover="this.style.color='red'" 
+           onmouseout="this.style.color='black'">
+            Run your mouse over the image to change.
+            Click the image for a surprise.
+        </p>
+    </div>
+
+    <div>
+        <img id="image2" 
+             src="images/image2.jpg" 
+             alt="Second Image"
+             onmouseover="this.src='images/newImage2.jpg'" 
+             onmouseout="this.src='images/image2.jpg'"
+             onclick="clickImage(this)">
+        <p onmouseover="this.style.color='red'"
+           onmouseout="this.style.color='black'">
+            Run your mouse over the image to change.
+            Click the image for a surprise.
+        </p>
+    </div>
+
+    <div>
+        <img id="images/image3" 
+             src="image3.jpg" 
+             alt="Third Image"
+             onmouseover="this.src='images/newImage3.jpg'" 
+             onmouseout="this.src='images/image3.jpg'"
+             onclick="clickImage(this)">
+        <p onmouseover="this.style.color='red'"
+           onmouseout="this.style.color='black'">
+            Run your mouse over the image to change.
+            Click the image for a surprise.
+        </p>
+    </div>
+
+    <script src="ilewis_Mod10_3.js"></script>
+</body>
+</html>
