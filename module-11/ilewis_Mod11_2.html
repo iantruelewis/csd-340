@@ -1,0 +1,27 @@
+<!-- ilewis_Mod11_2.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="ilewis_Mod11_2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+        <div class="instructions">
+            Enter a task in the text box, then click "Add" to add it to your to-do list. Click "Delete Last Entry" to remove the last task. Click "Display" to view your tasks.
+        </div>
+        <input type="text" id="taskInput" placeholder="Enter your task here">
+        <button onclick="addTask()">Add</button>
+        <button onclick="deleteLastTask()">Delete Last Entry</button>
+        <button onclick="displayTasks()">Display</button>
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="ilewis_Mod11_2.js"></script>
+</body>
+</html>
